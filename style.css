@@ -190,19 +190,21 @@ body {
   font-weight: 500;
 }
 
-.skill-section {
+.skill-section , .recent-work-section {
   background-color: #f1f4fb;
   padding: 60px 0px;
 }
 
 .skill-section p,
-.qualification-section p {
+.qualification-section p,
+.recent-work-section p {
   color: #f5ad73;
   text-align: center;
 }
 
 .skill-section h2,
-.qualification-section h2 {
+.qualification-section h2,
+.recent-work-section h2 {
   color: #071f47;
   text-align: center;
   font-weight: 800;
@@ -232,7 +234,7 @@ body {
   font-weight: 700;
 }
 
-.education-experience-icons {
+.education-experience-icons  {
   color: #071f47;
   font-size: 35px;
   margin: 0px 80px;
@@ -273,4 +275,19 @@ body {
   position: absolute;
   left: -17px;
   top: 5px;
+}
+
+.work-categories {
+  color: #071f47;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.work-categories:hover {
+  color: #f5ad73 ;
+}
+
+.card-text {
+  font-size: 14px;
+  color: gray;
 }
