@@ -33,6 +33,8 @@ body {
 .my-img {
   width: 100%;
   height: 600px;
+  object-fit: cover;
+  border-radius: 25px;
 }
 
 .intro {
@@ -128,6 +130,8 @@ body {
 .about img {
   width: 100%;
   height: 400px;
+  object-fit: cover;
+  padding: 5px 20px;
 }
 
 .about-section-wrapper {
