@@ -255,3 +255,22 @@ body {
   color: #f5ad73;
   font-weight: 600;
 }
+
+.qualification-brief::before {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  left: -10px;
+  background-color: #f5ad73;
+  content: "";
+}
+
+.timeline-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #f5ad73;
+  border-radius: 50%;
+  position: absolute;
+  left: -17px;
+  top: 5px;
+}
