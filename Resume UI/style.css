@@ -1,0 +1,187 @@
+body {
+  font-family: sans-serif;
+}
+
+.logo {
+  border: 2px solid orange;
+  padding: 5px 10px;
+  color: orange;
+}
+
+.nav-link {
+  color: midnightblue;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.btn-hire {
+  border-radius: 30px;
+  padding: 0px 27px;
+  font-size: 11px;
+  border: 1px solid orange;
+  background: orange;
+  color: white;
+  margin-left: 30px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.my-img {
+  width: 100%;
+  height: 600px;
+}
+
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.intro h3 {
+  color: orange;
+}
+
+.intro h1 {
+  color: midnightblue;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.intro h2 {
+  color: #1f3258;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.intro p {
+  color: #aaaaad;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.btn-download,
+.btn-contact {
+  border-radius: 35px;
+  padding: 10px 30px;
+  font-size: 12px;
+  border: 1px solid orange;
+  background: orange;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-download:hover,
+.btn-contact:hover {
+  background-color: white;
+  color: midnightblue;
+}
+
+.section-first {
+  background-color: #f9f9fb;
+  height: 600px;
+}
+
+.mid-section {
+  border-right: 2px solid #dcdcdc;
+  height: fit-content;
+  border-left: 2px solid #dcdcdc;
+}
+
+.services {
+  background-color: white;
+  width: 70%;
+  padding: 35px;
+  border-radius: 60px;
+  margin: 0 auto;
+  position: relative;
+  top: -60px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.services-content {
+  color: midnightblue;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.services p {
+  color: #f5ad73;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.service-icons {
+  font-size: 26px;
+  color: white;
+  border: 1px solid orange;
+  border-radius: 50%;
+  padding: 7px 6px;
+  background-color: orange;
+}
+
+.about img {
+  width: 100%;
+  height: 400px;
+}
+
+.about-section-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about {
+  margin-top: 90px;
+}
+
+.my-intro {
+  font-size: 17px;
+  font-weight: 500;
+  color: #f5ad73;
+}
+
+.about h2 {
+  color: #061f47;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.my-intro-para {
+  font-size: 13px;
+  color: #a7a7a7;
+}
+
+.interest-icons {
+  color: #f5ad73;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.my-intro-text {
+  color: #333333;
+  font-weight: 500;
+}
+
+.my-intro-text-response {
+  color: #656565;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+.interest h3 {
+  color: #091f47;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.interest-icon-text {
+  color: #071f47;
+  font-weight: 500;
+}
