@@ -195,12 +195,14 @@ body {
   padding: 60px 0px;
 }
 
-.skill-section p {
+.skill-section p,
+.qualification-section p {
   color: #f5ad73;
   text-align: center;
 }
 
-.skill-section h2 {
+.skill-section h2,
+.qualification-section h2 {
   color: #071f47;
   text-align: center;
   font-weight: 800;
@@ -223,4 +225,33 @@ body {
   font-size: 12px;
   letter-spacing: 0.2px;
   margin: 0px 90%;
+}
+
+.qualification-section h3 {
+  color: #071f47;
+  font-weight: 700;
+}
+
+.education-experience-icons {
+  color: #071f47;
+  font-size: 35px;
+  margin: 0px 80px;
+}
+
+.education-experience-details {
+  color: #071f47;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.education-experience-role {
+  color: #5e769f;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.experience-duration {
+  font-size: 11px;
+  color: #f5ad73;
+  font-weight: 600;
 }
