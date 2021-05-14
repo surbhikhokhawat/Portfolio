@@ -190,7 +190,8 @@ body {
   font-weight: 500;
 }
 
-.skill-section , .recent-work-section {
+.skill-section,
+.recent-work-section {
   background-color: #f1f4fb;
   padding: 60px 0px;
 }
@@ -234,7 +235,7 @@ body {
   font-weight: 700;
 }
 
-.education-experience-icons  {
+.education-experience-icons {
   color: #071f47;
   font-size: 35px;
   margin: 0px 80px;
@@ -284,10 +285,26 @@ body {
 }
 
 .work-categories:hover {
-  color: #f5ad73 ;
+  color: #f5ad73;
 }
 
 .card-text {
   font-size: 14px;
   color: gray;
+}
+
+.btn-view {
+  border-radius: 30px;
+  padding: 10px 27px;
+  font-size: 11px;
+  border: 1px solid orange;
+  background: orange;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 20px 400px;
+}
+
+.card-body a {
+  text-align: center;
 }
