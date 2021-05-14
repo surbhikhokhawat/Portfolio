@@ -308,3 +308,44 @@ body {
 .card-body a {
   text-align: center;
 }
+
+.contact-me {
+  background-color: #f29340;
+}
+
+.btn-contact-me {
+  border-radius: 30px;
+  padding: 14px 30px;
+  font-size: 11px;
+  border: 1px solid rgb(160, 159, 158);
+  background: white;
+  color: orange;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: -5px 100px;
+}
+
+.contact-me h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.contact-me p {
+  color: white;
+  padding-left: 100px;
+}
+
+.btn-visit {
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 11px;
+  border: 1px solid orange;
+  background: orange;
+  color: white;
+  margin-left: 30px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
