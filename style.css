@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -353,26 +358,27 @@ body {
 }
 
 .contact-me-img {
-  width: 560px;
+  width: 100%;
 }
 
 .subject,
 .message {
-  width: 70%;
+  width: 100%;
   padding: 5px 15px;
   margin: 10px 0px;
 }
 
 .input-name {
-  width: 70%;
+  width: 100%;
   padding: 5px 15px;
   margin: 10px 0px;
 }
 
 .input-email {
-  width: 70%;
+  width: 100%;
   padding: 5px 15px;
-  margin: 10px -34%;;
+  margin: 10px -34%;
+  ;
 }
 
 .btn-send-message {
@@ -387,7 +393,46 @@ body {
   margin: -5px 100px;
 }
 
-.info {
-  position: relative;
-  left: 20%;
+.contact-icons {
+  font-size: 26px;
+  color: white;
+  border: 1px solid orange;
+  border-radius: 50%;
+  padding: 18px 18px;
+  background-color: orange;
+}
+
+.contact-form h3 {
+  color: #0f254e;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.contact-me-form {
+  text-align: center;
+  padding: 0px 95px;
+  line-height: 40px;
+}
+
+.contact-me-form-2 {
+  text-align: center;
+  padding: 0px 95px;
+  line-height: 62px;
+  margin: 110px -110px;
+}
+
+footer {
+  background-color: midnightblue;
+}
+
+.footer-logo {
+  border: 2px solid orange;
+  padding: 5px 10px;
+  color: orange;
+  width: 5%;
+  margin-left: 500px;
+}
+
+footer p {
+  color: white;
 }
