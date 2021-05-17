@@ -1,7 +1,7 @@
-* {
+/* * {
   padding: 0px;
   margin: 0px;
-}
+} */
 
 body {
   font-family: sans-serif;
@@ -234,7 +234,6 @@ body {
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.2px;
-  margin: 0px 90%;
 }
 
 .qualification-section h3 {
@@ -318,6 +317,7 @@ body {
 
 .contact-me {
   background-color: #f29340;
+  padding: 40px;
 }
 
 .btn-contact-me {
@@ -329,20 +329,17 @@ body {
   color: orange;
   letter-spacing: 1px;
   font-weight: 600;
-  margin: -5px 100px;
 }
 
 .contact-me h2 {
   color: white;
-  text-align: center;
   letter-spacing: 1.5px;
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .contact-me p {
   color: white;
-  padding-left: 100px;
 }
 
 .btn-visit {
@@ -358,7 +355,7 @@ body {
 }
 
 .contact-me-img {
-  width: 100%;
+  width: 90%;
 }
 
 .subject,
@@ -378,27 +375,25 @@ body {
   width: 100%;
   padding: 5px 15px;
   margin: 10px -34%;
-  ;
 }
 
 .btn-send-message {
-  border-radius: 30px;
-  padding: 14px 30px;
-  font-size: 11px;
+  border-radius: 40px;
+  padding: 8px 20px;
+  font-size: 13px;
   border: 1px solid rgb(160, 159, 158);
   background: orange;
   color: white;
   letter-spacing: 1px;
   font-weight: 600;
-  margin: -5px 100px;
 }
 
 .contact-icons {
-  font-size: 26px;
+  font-size: 22px;
   color: white;
   border: 1px solid orange;
   border-radius: 50%;
-  padding: 18px 18px;
+  padding: 15px 15px;
   background-color: orange;
 }
 
@@ -414,25 +409,40 @@ body {
   line-height: 40px;
 }
 
-.contact-me-form-2 {
-  text-align: center;
-  padding: 0px 95px;
-  line-height: 62px;
-  margin: 110px -110px;
-}
-
 footer {
-  background-color: midnightblue;
+  background-color: #081f48;
+  text-align: center;
 }
 
 .footer-logo {
   border: 2px solid orange;
-  padding: 5px 10px;
+  padding: 5px 5px;
   color: orange;
-  width: 5%;
-  margin-left: 500px;
+  font-size: 40px;
 }
 
 footer p {
   color: white;
+}
+
+.social-media-icons {
+  color: white;
+  background-color: orange;
+  font-size: 18px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.copyright {
+  color: white;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.contact-info {
+  font-size: 14px;
+  color: gray;
 }
