@@ -140,7 +140,6 @@ body {
 }
 
 .about-section-wrapper {
-  width: 70%;
   margin: 0 auto;
 }
 
@@ -308,7 +307,6 @@ body {
   color: white;
   letter-spacing: 1px;
   font-weight: 600;
-  margin: 20px 400px;
 }
 
 .card-body a {
@@ -438,11 +436,16 @@ footer p {
 
 .copyright {
   color: white;
-  margin-top: 20px;
+  margin-top: 12px;
   font-size: 13px;
 }
 
 .contact-info {
   font-size: 14px;
   color: gray;
+}
+
+.declaration {
+  color: white;
+  font-size: 13px;
 }
