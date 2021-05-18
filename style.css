@@ -180,6 +180,7 @@ body {
   font-size: 17px;
   line-height: 30px;
   letter-spacing: 0.5px;
+  word-break: break-all;
 }
 
 .interest h3 {
@@ -243,7 +244,6 @@ body {
 .education-experience-icons {
   color: #071f47;
   font-size: 35px;
-  margin: 0px 80px;
 }
 
 .education-experience-details {
@@ -448,4 +448,47 @@ footer p {
 .declaration {
   color: white;
   font-size: 13px;
+}
+
+@media only screen and (max-width: 767px) {
+  .intro {
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+  }
+
+  .section-first {
+    height: unset;
+  }
+
+  .services {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .service-icons {
+    font-size: 19px;
+  }
+
+  .services-content {
+    font-size: 8px;
+  }
+
+  .services p {
+    font-size: 9px;
+  }
+
+  .interest-icon-text {
+    font-size: 13px;
+  }
+
+  .contact-me-img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .contact-me-form {
+    padding: 10px;
+  }
 }
